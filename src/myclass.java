@@ -1,8 +1,12 @@
+import java.util.Scanner;
+
 public class myclass {
 
     public static void main(String[] args) {
-        float x = 7;
-        long y = 5;
+        int grade = 9;
+        switch (grade) {
+
+        }
 
     }
 }
