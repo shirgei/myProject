@@ -103,6 +103,7 @@ public class Main {
             if (!Character.isDigit(compressedString.charAt(i))) {
                 reserve_words += compressedString.charAt(i);
             }
+            // we have a problem here with the condition
             else if (Character.isDigit(compressedString.charAt(i)) &(compressedString.indexOf(compressedString.charAt(i)) != (compressedString.length() -1) &Character.isDigit(compressedString.charAt(i +1)))) {
                 countConsecutive += compressedString.charAt(i);
 
